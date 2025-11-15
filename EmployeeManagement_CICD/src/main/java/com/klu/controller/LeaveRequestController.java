@@ -7,7 +7,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/leaves")
-@CrossOrigin(origins = "http://localhost:5173") // frontend URL
+@CrossOrigin(origins = "*") // frontend URL
 public class LeaveRequestController {
 
     private final LeaveRequestService service;

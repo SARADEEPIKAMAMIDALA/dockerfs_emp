@@ -54,7 +54,7 @@ import com.klu.repository.EmployeeRepository;
 import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 
-@CrossOrigin(origins = "http://localhost:5173")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/employees")
 public class EmployeeController {
