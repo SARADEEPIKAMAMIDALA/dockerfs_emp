@@ -237,7 +237,7 @@ services:
       mysqldb:
         condition: service_healthy
     ports:
-      - "2025:7070"
+      - "7070:7070"
     restart: on-failure
     networks:
       - springboot-mysql-net
